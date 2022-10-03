@@ -4,15 +4,15 @@ const axios = require("axios");
 
 let accuWeathKey = "CZuGbyrkS2NzAmmqxsTvfSnG4MQ2WpiF";
 let accuWeathCurrentUrl =
-  "http://dataservice.accuweather.com/currentconditions/v1/293149?apikey=" +
+  "http://dataservice.accuweather.com/currentconditions/v1/215752?apikey=" +
   accuWeathKey +
   "&details=true";
 let accuWeathHoursForecastUrl =
-  "http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/293149?apikey=" +
+  "http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/215752?apikey=" +
   accuWeathKey +
   "&metric=true&details=true";
 let accuWeathForecastUrl =
-  "http://dataservice.accuweather.com/forecasts/v1/daily/5day/293149?apikey=" +
+  "http://dataservice.accuweather.com/forecasts/v1/daily/5day/215752?apikey=" +
   accuWeathKey +
   "&metric=true&details=true";
 
