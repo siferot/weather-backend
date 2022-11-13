@@ -1,9 +1,7 @@
 const Router = require("express");
 const router = new Router();
-const weatherRouter = require("./weatherRouter");
-const locationRouter = require("./locationRouter");
+const levelRouter = require("./levelRouter");
 
-router.use("/weather", weatherRouter);
-router.use("/location", locationRouter);
+router.use("/levels", levelRouter);
 
 module.exports = router;
